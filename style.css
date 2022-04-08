@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 86px 20px 0px;
+}
+
+main > img {
+  max-width: 640px;
+  margin-top: 86px;
+}
+
+main {
+  margin-top: 48px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 48px;
+  letter-spacing: 0.005em;
+}
+
+h1 span {
+  font-weight: 700;
+}
+
+main p {
+  margin-top: 17px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+form {
+  margin-top: 40px;
+}
+
+input {
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  padding: 20px 30px;
+  max-width: 421px;
+  width: 100%;
+  border-radius: 100px;
+  border: 1px solid #ced3d9;
+  outline: none;
+  transition: .3s;
+}
+::-webkit-input-placeholder {
+  color: #ced3d9;
+}
+input:focus{
+  border: 1px solid #18a0fb;
+  background-color: rgba(24, 160, 251, .01);
+}
+
+button {
+  cursor: pointer;
+  margin-left: 16px;
+  max-width: 200px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 20px 30px;
+  border-radius: 100px;
+  border: none;
+  background-color: #18a0fb;
+  color: #f5f7fa;
+  box-shadow: rgba(24, 160, 251, .2) 0px 7px 29px 0px;
+  transition: .3s;
+}
+button:hover{
+  background-color: #4FB8FF;
+}
+
+footer {
+  text-align: center;
+  padding: 0 20px 50px;
+  margin-top: 72px;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: 12px;
+  color: #989EA6;
+  margin-top: 25px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+li svg {
+  max-width: 22px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  border: 1px solid #ced3d9;
+  transition: .3s;
+  cursor: pointer;
+}
+
+li:hover{
+  border-color: #18a0fb;
+  background-color: #18a0fb;
+}
+
+li:hover svg path{
+  fill: #f5f7fa;
+}
